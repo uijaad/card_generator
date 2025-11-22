@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body {
+    background-color: rgb(13, 13, 13);
+}
+#genBtn {
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s ease;
+    
+}
+#genBtn:hover {
+    background-color: rgba(0, 0, 0, 0.351);
+    color: white;
+    cursor: pointer;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+}
+#card-elements {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.351);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+}
